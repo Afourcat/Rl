@@ -2,12 +2,12 @@
 Readline library using termcaps
 
 ## Features
-  Arrow Key  (Left / Right)
-  Del Key
-  Ctrl Arrow (Left / Right)
-  Ctrl A/E   (Jump end begin)
-  Alt Del    (Word jump del)
-  Suppr Key
+Arrow Key  (Left / Right)
+Del Key
+Ctrl Arrow (Left / Right)
+Ctrl A/E   (Jump end begin)
+Alt Del    (Word jump del)
+Suppr Key
     
     [toto42sh@epitech.eu]$> Allo|
     /* Alt Del */
