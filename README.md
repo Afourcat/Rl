@@ -8,7 +8,8 @@ Readline library using termcaps
 * Ctrl A/E   (Jump end begin)
 * Alt Del    (Word jump del)
 * Suppr Key
-    
+*********
+
     [toto42sh@epitech.eu]$> Allo|
     /* Alt Del */
     [toto42sh@epitech.eu]$> |
