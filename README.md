@@ -2,7 +2,7 @@
 Readline library using termcaps
 
 ## Features
-> Arrow Key  (Left / Right)
+  Arrow Key  (Left / Right)
   Del Key
   Ctrl Arrow (Left / Right)
   Ctrl A/E   (Jump end begin)
