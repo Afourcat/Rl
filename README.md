@@ -3,11 +3,11 @@ Readline library using termcaps
 
 ## Features
 > Arrow Key  (Left / Right)
-> Del Key
-> Ctrl Arrow (Left / Right)
-> Ctrl A/E   (Jump end begin)
-> Alt Del    (Word jump del)
-> Suppr Key
+  Del Key
+  Ctrl Arrow (Left / Right)
+  Ctrl A/E   (Jump end begin)
+  Alt Del    (Word jump del)
+  Suppr Key
     
     [toto42sh@epitech.eu]$> Allo|
     /* Alt Del */
@@ -31,5 +31,11 @@ else if you want to use it as a lib:
    
 And link rl.h then use it link that:
 
-    while (sh->cmd == NULL)
-    sh->cmd = rl(sh->prompt);
+    char *cmd = NULL;
+    
+    while (cmd == NULL) {
+        cmd = rl("[YourPrompt]> ");
+        printf("%s\n", cmd);
+        free(cmd);
+        cmd = NULL;
+    }
